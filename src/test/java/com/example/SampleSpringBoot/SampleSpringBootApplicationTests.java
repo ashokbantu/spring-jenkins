@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.SampleSpringBoot;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
