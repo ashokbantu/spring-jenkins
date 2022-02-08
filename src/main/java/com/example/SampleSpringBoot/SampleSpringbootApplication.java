@@ -23,6 +23,7 @@ public class SampleSpringbootApplication {
 	}
 
 	private static List<Customer> getCustomerList(){
+		System.out.println("Inside the get Customer method");
 		return     Arrays.asList(new Customer(100,41,"Ashok","USA",Arrays.asList("6093259605","9790792598")),
 				new Customer(101,36,"Gouthami","USA",Arrays.asList("98851218999","1827379121")),
 				new Customer(102,34,"Koushik","USA",Arrays.asList("1928378211","1829378912")),
